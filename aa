@@ -2,3 +2,40 @@ How Guies Today we are going to discuss about AWS Idenetu and access management 
 AWS Srevice 
 AWSCLI,AWSSDK
 AWS Console
+when we create aws console acoount with email id and user this user has permmsion to access all wservice which is avilable on aws resources .Best user to avoid this user for everyday task
+
+Jab Ham Baat karte hai aws account ke mainaly hamaare pass 2 type ke user hote hai ek root user 
+and 1 IAM User.
+
+We can not modify IAM Policy to root user in a smiple ways we can use AWS Organizations service control policy (SCP).
+
+
+Tasks that require root user credentials.
+We recommend that you use an IAM user with appropriate permissions to perform tasks and access AWS
+resources. However, you can perform the tasks listed below only when you sign in as the root user of an
+account.
+Tasks
+• Change your account settings. This includes the account name, email address, root user password,
+and root user access keys. Other account settings, such as contact information, payment currency
+preference, and AWS Regions, don't require root user credentials.
+• Restore IAM user permissions. If the only IAM administrator accidentally revokes their own
+permissions, you can sign in as the root user to edit policies and restore those permissions.
+
+AWS Account Management Reference Guide
+Tasks that require root user
+• Activate IAM access to the Billing and Cost Management console.
+• View certain tax invoices. An IAM user with the aws-portal:ViewBilling permission can view and
+download VAT invoices from AWS Europe, but not AWS Inc. or Amazon Internet Services Private
+Limited (AISPL).
+• Close your AWS account.
+• Register as a seller in the Reserved Instance Marketplace.
+• Configure an Amazon S3 bucket to enable MFA (multi-factor authentication).
+• Edit or delete an Amazon Simple Storage Service (Amazon S3) bucket policy that includes an invalid
+virtual private cloud (VPC) ID or VPC endpoint ID.
+• Sign up for GovCloud 
+
+
+
+
+
+
