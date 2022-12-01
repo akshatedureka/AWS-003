@@ -1,2 +1,4 @@
-How Guies Today we are going to discuss about AWS Idenetu and access management service which short form is IAM .IAM used fo to validaate any user that user have psrmsion to access any respouerce which is avilable on aws or we can say we can check user is authomoaret for any paricalulare resourece
-
+How Guies Today we are going to discuss about AWS Idenetu and access management service which short form is IAM . IAM used fo to validaate any user that user have permmision to access any respouerce which is avilable on aws or we can say we can check user is authomoaret for any paricalulare resourece,we can eailsy manintai single or group persmison for resouerce.
+AWS Srevice 
+AWSCLI,AWSSDK
+AWS Console
